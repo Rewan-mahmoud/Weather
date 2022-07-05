@@ -1,0 +1,136 @@
+body{
+    background-color: #1e202b;
+    color: #bfc1c8;
+   
+
+}
+.mb-sm-3 {
+    margin-bottom: 0!important;
+    padding: 0 !important;
+
+}
+.second-bg{
+    background: #1e202b;
+}
+.navbar
+{
+    background-color: #1e202b;
+}
+
+.logo{
+    line-height: 0;
+}
+.logo p{
+    font-size: 14px;
+}
+.logo span{
+    font-size: 10px;
+}
+
+.bg
+{
+    background-color: #262936;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.nav-link {
+  padding: 3px 25px !important;
+  border-radius: 30px;
+  border: 3px solid transparent;
+  color: #009ad8 !important;
+  cursor: pointer;
+  transition: ease-in s all;
+  -webkit-transition: ease-in s all;
+  -moz-transition: ease-in s all;
+  -ms-transition: ease-in s all;
+  -o-transition: ease-in s all;
+}
+
+.nav-link.active{
+padding: 3px 25px !important;
+border: 3px solid #009ad8;
+border-radius: 30px;
+color: #009ad8 !important;
+
+}
+.nav-item :hover{
+    border-color: #009ad8;
+        
+}
+.weather-content{
+    background-image: url(../images/banner.png);
+}
+
+.find-location .info {
+    border-radius: 30px;
+    padding: 15px ;
+    background: #1e202b;
+    color: white;
+    border: none;
+  
+} 
+
+
+
+.size{
+    font-size:24px ;
+    font-weight: 500;
+    color: white;
+}
+.num{
+    font-size: 90px;
+    font-weight: 500;
+    color: white;
+}
+ .find-location button{
+
+   
+    bottom: 6px;
+    right: 5px;
+    padding: 10px 37px;
+    border: none;
+    background: #009ad8;
+    border-radius: 30px;
+    color: white;
+}
+
+.forecast-header{
+ background: rgba(0, 0, 0, 0.1);
+padding: 10px; 
+font-weight: 400;
+}
+
+
+.degree{
+    font-size:24px ;
+}
+
+
+.site-footer {
+    background: #262936;
+    padding: 50px 0;
+  }
+
+
+  .site-footer .social-links a {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    border-radius: 50%;
+    background: #1e202b;
+    color: #009ad8;
+    text-align: center;
+    line-height: 2;
+    -webkit-transition: 0.3s ease;
+    transition: 0.3s ease;
+    font-size: 20px;
+    margin-left: 5px;
+   
+  }
+  .site-footer .social-links a:hover {
+    background: #009ad8;
+    color: white;
+  }

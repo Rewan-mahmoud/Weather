@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weather</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+   
+</head>
+<body>
+    
+   
+        <nav class="navbar navbar-expand-lg navbar-dark bg-transparent w-100 p-4">
+            <div class="container">
+              <div class="d-flex justify-content-between">
+                <div><img src="images/logo.png"alt=""></div>
+                    <div class="logo text-white ms-2">
+                        <h5>Weather</h5>
+                        <span >tagline goes here</span>
+                    </div>
+                </div>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse me-auto " id="navbarSupportedContent">
+                <ul class="navbar-nav   mb-lg-0 ms-auto">
+                  <li class="nav-item p-3 ">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item p-3 ">
+                    <a class="nav-link" href="#">News</a>
+                  </li>
+                
+                  <li class="nav-item p-3 ">
+                    <a class="nav-link" >Live cameras</a>
+                  </li>
+                  <li class="nav-item p-3 ">
+                    <a class="nav-link">Photos</a>
+                  </li>
+                  <li class="nav-item p-3">
+                    <a class="nav-link">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+
+
+
+  <div class="weather-content pb-5  ">
+        <div class="container  ">
+            <form  class="find-location  position-relative ">
+                <input id="searchInput" class="info mt-5 w-100" type="text" placeholder="Find your location..." id="search">
+               <button class=" position-absolute">Find</button>
+            </form>
+        </div>
+        <div class="container mt-5 ">
+<div class="row bg">
+  <!-- <!->>>>>>>>>>>>>>>>> firstcard>>>>>>>>>>>>>>> --> 
+    <div class="col-md-4 mb-sm-3   ">
+    <div class="forecast-container " id="forecast">
+        <div class="today forecast">
+<div class="forecast-header d-flex justify-content-between" id="today">
+<div id="day"></div>
+<div id="date"></div>
+</div> 
+<div class="forecast-content p-4" id="current">
+<div id="location" class="location mt-md-3"></div>
+<div class="degree d-flex justify-content-between">
+<div class="num"><span id="today-degree"></span><sup>o</sup>C</div>
+ <div class="forecast-icon">
+<img  id="todayIcon" alt="" width="90">
+</div>	
+</div>
+<div id="description" class="custom mb-2 text-primary"></div>
+<span  class="me-4"><img src="images/icon-umberella.png" class="me-2" alt=""><span id="humidty"></span> % </span>
+   <span class=" me-4"><img src="images/icon-wind.png" class="me-2" alt=""> <span id="wind"></span>km/h</span>
+  <span class=" me-4" ><img src="images/icon-compass.png"  class="me-2" alt=""><span id="compass" ></span> </span>
+</div>
+</div>
+    </div>
+</div>
+    <!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
+
+    <!-- >>>>>>>>>>>>>>>>>>>>>>>secondcard>>>>>>>>>>> -->
+<div class="col-md-4  mb-sm-3 second-bg  text-center">
+  <div class="forecast-header " id="today">
+    <div class="nextDay "></div>
+    </div> 
+<div class="forecast-container p-4   ">
+ 
+    <div class="forecast-icon m-4">
+        <img class="nextDay-icon"alt="" width="48">
+    </div>
+   
+    <div class="size"><span class="maxDegree"></span><sup>o</sup>C</div>
+    <small><span  class="minDegree"></span><sup>o</sup></small>
+    <div class="custom text-primary p-4 nextDayDescription"></div>
+</div>
+</div>
+  <!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
+
+
+<!-- >>>>>>>>>>>>>>>>>>>>>>>Thirdcard>>>>>>>>>>>>>>>>> -->
+<div class="col-md-4 mb-sm-3 text-center  ">
+  <div class="forecast-header " id="today">
+    <div class="nextDay "></div>
+    </div>
+<div class="forecast-container p-4">
+
+    <div class="forecast-icon m-4">
+        <img class="nextDay-icon"alt="" width="48">
+    </div>
+    <div class="size" ><span class="maxDegree "></span><sup>o</sup>C</div>
+    <small><span  class="minDegree"></span><sup>o</sup></small>
+    <div class="custom p-4 text-primary nextDayDescription">Sunny</div>
+</div>
+</div>
+  <!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
+</div>
+</div>
+  </div>
+
+  <footer class="site-footer mt-5">
+    <div class="container">
+      <div class="row d-flex justify-content-between align-items-baseline mb-4">
+        <div class="col-md-8">
+          <form  class="find-location  position-relative">
+            <input class="info mt-5 w-100" type="text" placeholder="Enter your email to subscribe..." id="search">
+           <button class=" position-absolute">subscribe</button>
+        </form>
+        </div>
+        <div class="col-md-3 col-md-offset-1">
+          <div class="social-links mt-sm-4 d-flex justify-content-center align-items-center ">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-google-plus-g"></i></a>
+            <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <p>Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+    </div>
+  </footer>
+
+    		
+
+
+
+
+<script src="js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
